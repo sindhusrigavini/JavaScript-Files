@@ -1,0 +1,27 @@
+html, body {
+    margin-top: 5%;
+    margin-left: 20%;
+    font-family: Arial, sans-serif;
+}
+
+.image {
+
+    height: 300px;
+    width: 300px;
+}
+
+#input {
+    padding: 7px 12px;
+    font-size: 16px;
+    margin-right: 10px;
+}
+
+.addbtn {
+    padding: 8px;
+    background-color: blue;
+    color: aliceblue;
+    cursor: pointer;
+    border: solid 1px blue;
+    border-radius: 3px;
+    font-size: 16px;
+}

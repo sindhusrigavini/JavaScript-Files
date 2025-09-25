@@ -1,0 +1,16 @@
+div{
+    cursor: pointer;
+}
+#parent{
+    margin-top: 10%;
+    padding:30px;
+    border:1px solid black
+}
+#child{
+    padding:30px;
+    border:1px solid black
+}
+#sub_child{
+    padding:30px;
+    border:1px solid black
+}

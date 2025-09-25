@@ -1,0 +1,44 @@
+/* #sun{
+    align-items: center;
+    margin-left: 500px;
+    margin-top: 200px;
+    width:500px;
+    height:300px;
+
+} */
+body{
+    background-image:url(https://wallpapercave.com/wp/wp4100958.jpg);
+}
+h1{
+    justify-content: center;
+    align-items: center ;
+    margin-top: 300px;
+    font-size: 50px;
+    text-align: center;
+    color: white;
+    font-style: oblique;
+}
+.sunset{
+    justify-content: center;
+    
+    margin-top:90px;
+    margin-left: 42%;
+    padding: 10px 20px;
+    border-radius: 15px;
+    font-size: 17px;
+    background-color:grey;
+    color: white;
+}
+.sunrise{
+    justify-content: center;
+    margin-top:90px;
+    margin-left: 1%;
+    padding: 10px 20px;
+    border-radius: 15px;
+    font-size: 17px;
+    background-color:grey;
+    color: white;
+}
+button:hover{
+    cursor: pointer;
+}

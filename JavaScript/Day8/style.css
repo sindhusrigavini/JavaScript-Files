@@ -1,0 +1,23 @@
+#title{
+    color:red;
+    margin-top:5%;
+    text-align: center;
+}
+button{
+    margin-left: 46%;
+    padding: 10px 20px;
+    font-size: 15px;
+    background-color: blue;
+    color: white;
+    border-radius: 20px;
+}
+img{
+    display: block;
+    /* margin-left: auto;
+    margin-right: auto; */
+    width: 30%;
+}
+button:hover{
+    background-color: yellowgreen;
+    cursor: pointer;
+}

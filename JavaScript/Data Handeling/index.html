@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <!-- https://jsonplaceholder.typicode.com/todos -->
+    <h1>Display All Users</h1>
+    <div id="container">
+        <input type="text" id="name" placeholder="enter your name"/>
+        <input type="email"id="email" placeholder="enter your email"/>
+        <section id="gender" class="input">
+            <option>male</option>
+            <option>femsle</option>
+        </section>
+        <select id="status" class="input">
+            <option>active</option>
+            <option>inactive</option>
+        </select>
+        <button onclick=AddUser()>Add User</button>
+    </div>
+    <div id="userdata"></div>
+    <script src="script.js"></script>
+</body>
+</html>

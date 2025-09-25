@@ -1,0 +1,21 @@
+button:hover{
+    cursor:pointer;
+}
+body{
+    margin-top: 200px;
+    margin-left:45% ;
+}
+.on{
+    background-color: grey;
+    color: white;
+    margin-left: 22%;
+    
+}
+#bulb{
+    width: 300px;
+}
+.off{
+    background-color: grey;
+    color: white;   
+    
+}

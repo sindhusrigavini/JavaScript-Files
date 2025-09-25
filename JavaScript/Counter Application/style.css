@@ -1,0 +1,54 @@
+body {
+    background-image: url('https://i.pinimg.com/originals/94/c3/7d/94c37df1fdc086ede0ca411dda289407.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    height: 100vh;
+}
+
+#app-container {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.8); /* Optional: adds contrast */
+    padding: 20px;
+    border-radius: 10px;
+}
+
+#heading {
+    font-size: 40px;
+    color: #1976D2;
+    margin-bottom: 10px;
+}
+
+#counter {
+    font-size: 30px;
+    margin-bottom: 15px;
+}
+
+.btn {
+    font-size: 15px;
+    cursor: pointer;
+    padding: 10px 20px;
+    margin: 5px;
+    border: none;
+    border-radius: 5px;
+}
+
+.Increment {
+    background-color: green;
+    color: white;
+}
+
+.Decrement {
+    background-color: red;
+    color: white;
+}
+
+.Reset {
+    background-color: blue;
+    color: white;
+}
